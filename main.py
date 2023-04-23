@@ -36,6 +36,6 @@ if __name__ == '__main__':
     # list_of_data = [{'_id':1,'Name':'Rahul','Age':21},{'_id':2,'Name':'Rohit','Age':22},{'_id':3,'Name':'Gopal','Age':20},{'_id':4,'Name':'Rahul Mann','Age':21}]
     # db.insert_multiple_rows('firstCollection',list_of_data)
 
-    # find one
+    # find
     find_dict = {'Name': 'Rahul'}
     print(db.find(find_dict=find_dict))
